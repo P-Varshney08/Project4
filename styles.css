@@ -1,0 +1,158 @@
+body{
+    /* padding: 15px; */
+    margin: 3rem;
+}
+#but_login{
+    margin-top: 5px;
+    width: 90px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgba(50, 37, 227, 0.63);
+}
+#but_login:hover{
+    background-color: rgb(82, 228, 89);
+    font-size: 14px;
+    height: 42px;
+}
+#list_nav{
+    list-style-type: none;
+}
+.head1, .head2 ul, .head3{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+#list_nav li a{
+    justify-content: space-between;
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+}
+#list_nav a:hover{
+    font-size: 22px;
+    text-decoration: underline;
+    color: blue;
+}
+.head_main, .sect1{
+    padding: 15px;
+    /* border: 3px dashed brown;
+    background-color: rgb(218, 212, 212); */
+    display: flex;
+    justify-content: space-between;
+    /* border-radius: 8px; */
+}
+.head2, .head3{
+    padding-top: 10px;
+}
+.footer_main, .sect1{
+    margin-top: 15px;
+}
+#alag{
+    color: maroon;
+    font-family: cursive;
+}
+#list_foot{
+    list-style-type: none;
+    font-size: 20px;
+    font-style: italic;
+}
+/* .sect1{
+    background-image: url('images/annie-spratt-wuc-KEIBrdE-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+#upar{
+    padding-top: 2px;
+}
+.divv1, .divv2{
+    gap: 3%;
+}
+#neeche{
+    padding-top: 10px;
+}
+.sect2_main{
+    flex-grow: 1;
+    padding-top: 30px;
+}
+.job_alert{
+    background-color: rgb(157, 217, 240);
+    padding: 16px;
+}
+.search_but{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+}
+.num{
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 3px;
+}
+.num:hover{
+    background-color: rgb(157, 217, 240);
+
+}
+
+.card{
+    background-color: rgb(242, 242, 242);
+    height: 325px;
+    width: 380px;
+    border: 2px solid ;
+    
+}
+
+.card:hover{
+    box-shadow: 2px 2px 2px black;
+    height: 350px;
+    width: 390px;
+    transition: 0.1s;
+}
+
+#inner button{
+    background-color:#e6f0ff;
+    color:#4d94ff;
+    font-style: bold;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 0.1rem;
+}
+
+#low button{
+    margin: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.1rem;
+    margin-left: 2rem;
+    
+}
+/* #card02,#card03,#card01{
+    margin-top: -30rem;
+}
+#card05,#card06,#card04{
+    margin-top: -38rem;
+} */
+#cards a{
+    text-decoration: none;
+    color: black;
+}
+
+#bd{
+    background-color:#4d94ff;
+    color: white;
+}
+
+#da{
+    color: #e6e6e6;
+    background-color:rgb(191, 191, 191) ;
+    text-shadow: 1px 1px 1px black;
+}
+#cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:1rem;
+    gap:0.3rem;
+    padding: 3px;
+}
+.mainn{
+    display: flex;
+}
